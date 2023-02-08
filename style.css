@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 0px;
+    box-shadow: 0 0 15px rgba(47, 47, 47, 0.64);
+    padding-top: 15px;
+    height: 60px;
+}
+#logo{
+    text-decoration: dashed;
+    font-size: 23px;
+    color: black;
+    margin-left: 230px;
+    margin-right: 250px;
+}
+.menu{
+    display: inline;
+    font-size: 14px;
+    color: black;
+    margin-left: 50px;
+    text-decoration: dashed;
+    background-color: #ffffff;
+}
+.menuM{
+    display: inline;
+    font-size: 14px;
+    color: black;
+    margin-left: 50px;
+    text-decoration: dashed;
+}
+div.btn-group{
+    display: none;
+}
+.menu:hover{
+    font-size: 15px;
+}
+#Bmain1{
+    text-align: center;
+    color: #ffffff;
+    height: 500px;
+    background-size: 1400px;
+    background-image: url(img/intro-bg.jpg);
+    background-repeat: no-repeat;
+}
+#main1{
+    background-image: linear-gradient(to top, rgba(62, 62, 62, 0), rgb(44, 44, 44));
+    height: 500px;
+    width: 100%;
+}
+#LAN{
+    padding-top: 190px;
+    margin: 0px;
+    font-size: 45px;
+}
+#p1{
+    font-size: 23px;
+}
+#button1{
+    border: none;
+    background-color: rgb(4, 151, 4);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+#button1:hover{
+    background-color: rgb(3, 113, 3);
+}
+
+div#main2{
+    margin-top: 40px;
+}
+
+span#span1{
+    color: rgb(0, 167, 0);
+}
+hr#hr1{
+    border: 1px solid rgb(2, 175, 2);
+    margin-right: 490px;
+    opacity: 1;
+    margin-top: -6px;
+}
+button#button2{
+    margin-top: 15px;
+    color: #ffffff;
+    border: none;
+    background-color: rgb(2, 175, 2);
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+button#button2:hover{
+    background-color: rgb(3, 113, 3);
+}
+
+img.imgabout{
+    width: 260px;
+}
+h2.tabout{
+    font-size: 20px;
+    margin-top: 20px;
+}
+div#main3{
+    background-color: #02af02;
+    color: #ffffff;
+    text-align: center;
+}
+img.M3imgs{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #0ec70e;
+    opacity: 25;
+}
+div#main4{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+hr#tgallery{
+    border: 2px solid rgb(4, 205, 4);
+    opacity: 1;
+    width: 50px;
+    margin-left: 48%;
+}
+img.imgtable{
+    width: 250px;
+}
+.tab button{
+    background-color: rgb(207, 207, 207);
+    border: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.tab button:hover{
+    background-color: #02af02;
+}
+.tab button:active{
+    background-color: #af4102;
+    
+}
+#ALL{
+    padding-top: 20px;
+    margin-left: 15%;
+    display: block;
+    padding: 6px 12px;
+    border: none;
+    text-align: center;
+}
+.tabcontent{
+    margin-top: 30px;
+    margin-left: 15%;
+    text-align: center;
+    display: none;
+    padding: 6px 12px;
+    border: none;
+}
+div#Cmain{
+    text-align: center;
+    color: #ffffff;
+    background-image: url('img/11-large.jpg');
+    background-repeat: round;
+    width: 100%;
+    height: 500px;
+}
+div#main5{
+    background-image: linear-gradient(to top, #2cbd0bd2, #2cbd0bd2);
+    height: 500px;
+    padding: 150px 0px 0px 0px;
+}
+div.carousel-item{
+    padding-bottom: 60px;
+}
+button.carousel-control-prev{
+    margin-bottom: 70px;
+}
+button.carousel-control-next{
+    margin-bottom: 60px;
+}
+hr#hr3{
+    border: 2px solid #ffffff;
+    opacity: 1;
+    width: 50px;
+    margin-left: 48%;
+}
+div#main6{
+    padding-top: 80px;
+    text-align: center;
+}
+button#toform{
+    color: #ffffff;
+    border: none;
+    background-color: #02af02;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    margin: 30px 0px 50px 0px;
+}
+hr#hr4{
+    border: 2px solid #02af02;
+    opacity: 1;
+    width: 50px;
+    margin-left: 48%;
+}
+div.info{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+hr.hr5{
+    border: 2px solid #cccccc;
+    opacity: 1;
+    width: 70px;
+    text-align: center;
+    margin-left: 42%;
+}
+button#toform:hover{
+    background-color: rgb(3, 113, 3);
+}
+input{
+    border: 1px solid #aaaaaa;
+    width: 376px;
+    padding: 10px;
+    margin-top: 10px;
+}
+textarea{
+    padding: 9px;
+    margin-top: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+}
+i.icons{
+    border-radius: 50%;
+    padding: 10px;
+    margin: 50px 10px 10px 20px;
+    background-color: rgb(74, 74, 74);
+    color: rgb(2, 181, 2);
+    cursor: pointer;
+}
+#fac{
+    padding: 10px 13px 10px 13px;
+}
+#ttfooter{
+    color: rgb(74, 74, 74);
+    padding-bottom: 20px;
+}
+[class*="col-"] {
+    float: left;
+}
+
+@media only screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }    
+    div.btn-group{
+        display: inline;
+    }
+}
+
+
+@media (max-width: 768px){
+
+}
+
+
